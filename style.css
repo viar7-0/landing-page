@@ -83,6 +83,7 @@ button{
     font-weight:900;
     padding-top: 40px;
     
+    
 }
 .image-info{
     display:flex;
@@ -111,4 +112,27 @@ img{
     font-weight: 300;
 
 }
+.action-button{
+    padding: 80px;
+    text-align: left;
+}
+.message{
+    background-color: #3882F6;
+    padding: 30px;;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    font-size: 24px;
+    
+
+}
+.message-banner{
+    font-weight: bolder;
+}
+.sign-up{
+    border-color: white;
+}
+
+
 
