@@ -142,11 +142,12 @@ img{
     height: 80px;
     align-items: center;
 }
-a:link{
+a:active,a:link{
     text-decoration: none;
     color:#E5E7EB
 
 }
+
 
 
 
