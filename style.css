@@ -103,7 +103,7 @@ img{
 .quotes{
     display: flex;
     background-color: #E5E7EB;
-    padding:100px 100px 100px 100px;
+    padding:100px 320px 100px 320px;
     
 }
 .quote{
@@ -118,7 +118,7 @@ img{
 }
 .message{
     background-color: #3882F6;
-    padding: 30px;;
+    padding: 30px 20px;;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -132,6 +132,15 @@ img{
 }
 .sign-up{
     border-color: white;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    font-size: large;
+    color: #F9FAF8;
+    height: 80px;
+    align-items: center;
 }
 
 
