@@ -142,7 +142,7 @@ img{
     height: 80px;
     align-items: center;
 }
-a:active,a:link{
+a,a:active,a:link,a:visited{
     text-decoration: none;
     color:#E5E7EB
 
