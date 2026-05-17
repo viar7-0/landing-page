@@ -2,6 +2,7 @@ body{
     padding:0px;
     margin:0px;
     font-family: 'Roboto';
+    text-align: center;
 }
 ul{
     list-style-type: none;
@@ -22,6 +23,7 @@ ul{
     background-color: #1F2937;
     color: white;
     
+    
 }
 .links{
     display: flex;
@@ -41,12 +43,14 @@ ul{
     padding-bottom: 60px;
     justify-content: space-between;
     gap:30px;
+    text-align: left;
 
 }
 
-img{
+.cat{
     display:flex;
     flex:1;
+    border-radius: 15px;
 
 }
 .first{
@@ -65,3 +69,46 @@ button{
     padding:8px;
     border-radius: 15px;
 }
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.info-text{
+    display: flex;
+    margin: auto;
+    font-size:36px;
+    color: #1f2937;
+    font-weight:900;
+    padding-top: 40px;
+    
+}
+.image-info{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    
+    
+}
+.container{
+    max-width: 300px;
+}
+img{
+    border:5px blue;
+    border-radius: 25px;
+    
+}
+.quotes{
+    display: flex;
+    background-color: #E5E7EB;
+    padding:100px 100px 100px 100px;
+    
+}
+.quote{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 300;
+
+}
+
