@@ -30,3 +30,38 @@ ul{
     font-size: 20px;
     font-weight: 200;
 }
+.banner{
+    display:flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:40px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    gap:30px;
+
+}
+
+img{
+    display:flex;
+    flex:1;
+
+}
+.first{
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.para{
+    font-size:18px;
+    color: #E5E7EB;
+}
+button{
+    color: white;
+    background-color: #3882F6;
+    font-size: 20px;
+    padding:8px;
+    border-radius: 15px;
+}
